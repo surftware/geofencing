@@ -1,16 +1,18 @@
-<header>
-  <div class="brand">
-    <h5>The Ranch</h5>
-  </div>
-  <div class="nav">
-    <ul>
-      <li>
-        <img src="../assets/boy.svg" alt="avatar">
-        <span>John P.</span>
-      </li>
-    </ul>
-  </div>
-</header>
+<template>
+  <header>
+    <div class="brand">
+      <h5>The Ranch</h5>
+    </div>
+    <div class="nav">
+      <ul>
+        <li>
+          <img src="../assets/boy.svg" alt="avatar">
+          <span>John P.</span>
+        </li>
+      </ul>
+    </div>
+  </header>
+</template>
 <style lang="scss" scoped>
   header {
     display: flex;
@@ -62,4 +64,5 @@
 export default {
   name: 'Header'
 }
+
 </script>
