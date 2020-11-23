@@ -7,8 +7,7 @@ import * as VueGoogleMaps from 'vue2-google-maps'
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyCbggB5C-HP-CXGHl4pkTwvVJtjP2Kbz3o',
-    libraries: 'geometry'
-    // This is required when working with polygons
+    libraries: 'geometry' // This is required if you use the Autocomplete
   }
 })
 
